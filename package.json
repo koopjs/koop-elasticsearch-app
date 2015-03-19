@@ -1,7 +1,7 @@
 {
-  "name": "koop-tiles-app",
+  "name": "koop-dc-esri",
   "version": "1.0.0",
-  "description": "A sample application that shows how to create an app using koop with the Koop-tile-plugin",
+  "description": "A sample application that shows how to create an app using koop",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,7 +10,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com:koopjs/koop-tiles-app.git"
+    "url": "https://github.com:arcgis/koop-dc-esri.git"
   },
   "dependencies": {
     "config": "~1.9.0",
@@ -24,6 +24,10 @@
     "koop-github": "~0.1.2",
     "koop-pgcache": "0.0.1",
     "koop-socrata": "~0.0.1",
+    "koop-acs": "~0.2.0",
+    "koop-climate": "~0.0.1",
+    "koop-cloudant": "~0.0.2",
+    "koop-osm": "~0.0.1",
     "koop-tile-plugin": "^1.0.0"
   }
 }
