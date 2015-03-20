@@ -9,6 +9,8 @@ var express = require("express"),
   ckan = require('koop-ckan'),
   github = require('koop-github'),
   agol = require('koop-agol'),
+  acs = require('koop-acs'),
+  osm = require('koop-osm'),
   gist = require('koop-gist'),
   pgCache = require('koop-pgcache'),
   tiles = require('koop-tile-plugin');
@@ -22,6 +24,8 @@ koop.register( ckan );
 koop.register( github ); 
 koop.register( gist ); 
 koop.register( agol ); 
+koop.register( acs ); 
+koop.register( osm ); 
 
 // register the tiles plugin
 koop.register( tiles ); 
