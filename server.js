@@ -13,7 +13,7 @@ var express = require("express"),
   osm = require('koop-osm'),
   gist = require('koop-gist'),
   pgCache = require('koop-pgcache'),
-  tiles = require('koop-tile-plugin');
+  tiles = require('koop-tile-plugin'),
   zillow = require('koop-zillow');
 
 // this is not required but is helpful
