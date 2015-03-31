@@ -28,6 +28,7 @@
     "koop-climate": "~0.0.1",
     "koop-cloudant": "~0.0.2",
     "koop-osm": "~0.0.1",
-    "koop-tile-plugin": "^1.0.0"
+    "koop-tile-plugin": "^1.0.0",
+    "koop-zillow": "^0.1.0"
   }
 }
