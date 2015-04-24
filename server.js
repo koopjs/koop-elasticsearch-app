@@ -5,32 +5,15 @@ var express = require("express"),
   cors = require('cors'),
   config = require("config"),
   koop = require('koop')( config ),
-  socrata = require('koop-socrata'),
-  ckan = require('koop-ckan'),
-  github = require('koop-github'),
-  agol = require('koop-agol'),
   acs = require('koop-acs'),
-  osm = require('koop-osm'),
-  gist = require('koop-gist'),
-  pgCache = require('koop-pgcache'),
-  tiles = require('koop-tile-plugin'),
-  zillow = require('koop-zillow');
+  esCache = require('koop-escache');
 
 // this is not required but is helpful
-koop.registerCache( pgCache );
+koop.registerCache( esCache );
+
 
 //register providers with koop 
-koop.register( socrata ); 
-koop.register( ckan ); 
-koop.register( github ); 
-koop.register( gist ); 
-koop.register( agol ); 
 koop.register( acs ); 
-koop.register( osm ); 
-koop.register( zillow );
-
-// register the tiles plugin
-koop.register( tiles ); 
 
 // create an express app
 var app = express();

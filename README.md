@@ -1,12 +1,12 @@
-# Koop-DC-Esri
+# Koop-elasticsearch-app
 
-A sample express.js application that shows you how to deploy an instance of koop together with ALL koop providers AND the [koop-tile-plugin](https://github.com/koopjs/koop-tile-plugin).
+An express.js application that shows you how to deploy an instance of koop together with Elasticsearch as its primary data cache.
 
 ## Install
 
-  ```
-    git clone https://github.com/arcgis/koop-dc-esri
-    cd koop-dc-esri-app
+  ```bash
+    git clone https://github.com/koopjs/koop-elasticsearch-app.git
+    cd koop-elasticsearch-app
     npm install 
     node server.js  
   ``` 
