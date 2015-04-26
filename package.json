@@ -19,6 +19,7 @@
     "express": "4.10.1",
     "koop": "^2.0.0",
     "koop-escache": "~0.0.1",
+    "koop-agol": "*",
     "koop-acs": "~0.2.0"
   }
 }
