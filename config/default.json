@@ -6,5 +6,15 @@
     "db":{
       "conn":{ "host": "localhost:9200" },
       "pg": "postgres://localhost/koopdev"
+    },
+    "agol":{
+      "request_workers": {
+        "force": true,
+        "redis": {
+          "prefix":"q",
+          "port":6379,
+          "host":"127.0.0.1"
+        }
+      }
     }
 }

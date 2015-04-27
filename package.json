@@ -20,6 +20,7 @@
     "koop": "^2.0.0",
     "koop-escache": "~0.0.1",
     "koop-agol": "*",
-    "koop-acs": "~0.2.0"
+    "koop-acs": "~0.2.0",
+    "koop-census": "~0.0.1"
   }
 }

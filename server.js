@@ -6,16 +6,17 @@ var express = require("express"),
   config = require("config"),
   koop = require('koop')( config ),
   acs = require('koop-acs'),
+  census = require('koop-census'),
   agol = require('koop-agol'),
   esCache = require('koop-escache');
 
 // this is not required but is helpful
 koop.registerCache( esCache );
 
-
 //register providers with koop 
 koop.register( acs ); 
 koop.register( agol ); 
+koop.register( census ); 
 
 // create an express app
 var app = express();
